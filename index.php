@@ -8,7 +8,7 @@ $conn = Connect();
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LuxeDrive</title>
+    <title>Luxe Drive</title>
     <link rel="shortcut icon" type="image/png" href="assets/img/P.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -29,7 +29,7 @@ $conn = Connect();
                     <i class="fa fa-bars"></i>
                     </button>
                 <a class="navbar-brand page-scroll" href="index.php">
-                   LuxeDrive</a>
+                   Luxe Drive</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
 
@@ -121,7 +121,7 @@ $conn = Connect();
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
-                            <h1 class="brand-heading" style="color: black">LuxeDrive Rentals</h1>
+                            <h1 class="brand-heading" style="color: black">Luxe Drive Rentals</h1>
                             <p class="intro-text">
                                 Online Car Rental Service
                             </p>
@@ -136,7 +136,7 @@ $conn = Connect();
     </div>
 
     <div id="sec2" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-        <h3 style="text-align:center;">Available Cars</h3>
+        <h3 style="text-align:center;">Select Your Car Here !</h3>
 <br>
         <section class="menu-content">
             <?php   
@@ -158,7 +158,7 @@ $conn = Connect();
             <div class="sub-menu">
             
 
-            <img class="card-img-top" src="<?php echo $car_img; ?>" alt="Card image cap">
+            <img class="card-img-top" src="<?php echo $car_img; ?>" alt="">
             <h5><b> <?php echo $car_name; ?> </b></h5>
             <h6> AC Fare: <?php echo ("RM " . $ac_price . "/km & RM" . $ac_price_per_day . "/day"); ?></h6>
             <h6> Non-AC Fare: <?php echo ("RM " . $non_ac_price . "/km & RM" . $non_ac_price_per_day . "/day"); ?></h6>
